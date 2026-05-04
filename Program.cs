@@ -9,7 +9,9 @@
             foreach (string s in sorok) { 
                 list.Add(new Furdo(s));
             }
-
+            Console.WriteLine("7.feladat:");
+            Console.WriteLine($"Fürdők száma: {list.Count}");
+            
         }
     }
 }
